@@ -38,7 +38,6 @@ Thumbs.db
 .mypy_cache/
 
 # Large ML files
-*.pkl
 *.joblib
 
 # Anaconda
