@@ -11,8 +11,7 @@ CORS(app)
 # =========================================================
 # LOAD TRAINED MODEL AND FEATURE COLUMNS
 # =========================================================
-
-model = joblib.load("car_price_model.pkl")
+model = joblib.load("small_car_price_model.pkl")
 feature_columns = joblib.load("car_price_features.pkl")
 
 

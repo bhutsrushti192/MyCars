@@ -42,3 +42,6 @@ Thumbs.db
 
 # Anaconda
 anaconda_projects/
+
+ML_api/car_price_model_backup.pkl
+ML_api/car_price_model_original.pkl
