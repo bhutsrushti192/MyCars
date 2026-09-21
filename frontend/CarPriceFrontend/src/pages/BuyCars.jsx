@@ -15,7 +15,7 @@ function BuyCars() {
 
   // Get cars from MongoDB through Node.js
   useEffect(() => {
-    fetch("http://localhost:3000/cars")
+    fetch("https://mycars-node-backend.onrender.com/cars")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch cars");

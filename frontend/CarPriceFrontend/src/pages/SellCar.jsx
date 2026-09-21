@@ -49,7 +49,7 @@ function SellCar() {
       };
 
       const response = await fetch(
-        "http://localhost:3000/cars",
+        "https://mycars-node-backend.onrender.com/cars",
         {
           method: "POST",
           headers: {

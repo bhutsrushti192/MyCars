@@ -9,7 +9,7 @@ function CarDetail() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:3000/cars/${id}`)
+    fetch(`https://mycars-node-backend.onrender.com/cars/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Car not found");

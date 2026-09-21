@@ -112,7 +112,7 @@ function Valuation() {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/predict",
+        "https://mycars-node-backend.onrender.com/predict",
         {
           method: "POST",
           headers: {
