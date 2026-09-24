@@ -1265,214 +1265,8 @@
     gap: 5px;
   }
 } 
-/* ==============================
-   HOW IT WORKS PAGE
-================================ */
 
-.how-page {
-  background: #f7f8fa;
-  min-height: 100vh;
-  padding-bottom: 70px;
-}
 
-.how-header {
-  text-align: center;
-  padding: 70px 30px 50px;
-  background: white;
-}
-
-.how-header p {
-  color: #1d4ed8;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-}
-
-.how-header h1 {
-  color: #172033;
-  font-size: 48px;
-  margin: 0 0 15px;
-}
-
-.how-header span {
-  color: #667085;
-  font-size: 17px;
-}
-
-.how-container {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 0 30px;
-}
-
-.how-step {
-  display: grid;
-  grid-template-columns: 70px 70px 1fr;
-  gap: 20px;
-  align-items: start;
-  background: white;
-  padding: 28px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
-}
-
-.how-number {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1d4ed8;
-  padding-top: 5px;
-}
-
-.how-icon {
-  width: 55px;
-  height: 55px;
-  background: #eef2ff;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 27px;
-}
-
-.how-step h2 {
-  color: #172033;
-  font-size: 22px;
-  margin: 0 0 8px;
-}
-
-.how-step p {
-  color: #667085;
-  line-height: 1.7;
-  margin: 0;
-}
-
-/* Features */
-
-.how-features {
-  max-width: 1100px;
-  margin: 70px auto;
-  padding: 0 30px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-.how-feature {
-  background: white;
-  text-align: center;
-  padding: 30px 20px;
-  border-radius: 15px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
-}
-
-.how-feature > div {
-  font-size: 35px;
-  margin-bottom: 15px;
-}
-
-.how-feature h3 {
-  color: #172033;
-  margin-bottom: 10px;
-}
-
-.how-feature p {
-  color: #667085;
-  line-height: 1.6;
-  font-size: 14px;
-}
-
-/* CTA */
-
-.how-cta {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 50px 30px;
-  text-align: center;
-  background: #172033;
-  border-radius: 18px;
-}
-
-.how-cta h2 {
-  color: white;
-  font-size: 32px;
-  margin: 0 0 10px;
-}
-
-.how-cta p {
-  color: #d0d5dd;
-  margin-bottom: 25px;
-}
-
-.how-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.how-primary-button,
-.how-secondary-button {
-  padding: 13px 24px;
-  border-radius: 9px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.how-primary-button {
-  background: white;
-  color: #172033;
-}
-
-.how-secondary-button {
-  border: 1px solid #d0d5dd;
-  color: white;
-}
-
-/* Mobile */
-
-@media (max-width: 768px) {
-
-  .how-header {
-    padding: 50px 20px 35px;
-  }
-
-  .how-header h1 {
-    font-size: 36px;
-  }
-
-  .how-container {
-    padding: 0 20px;
-  }
-
-  .how-step {
-    grid-template-columns: 45px 55px 1fr;
-    gap: 12px;
-    padding: 22px;
-  }
-
-  .how-step h2 {
-    font-size: 19px;
-  }
-
-  .how-features {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-
-  .how-buttons {
-    flex-direction: column;
-  }
-
-  .how-primary-button,
-  .how-secondary-button {
-    display: block;
-  }
-
-  .how-cta {
-    margin: 0 20px;
-  }
-}
 /* =========================
    NAVBAR
 ========================= */
@@ -2044,5 +1838,860 @@
 
   .nav-links a {
     font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================================
+   HOW IT WORKS PAGE
+========================================================= */
+
+.how-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f8fa;
+  color: #172033;
+  padding-bottom: 70px;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.how-header {
+  text-align: center;
+  padding: 75px 30px 60px;
+  background: #ffffff;
+}
+
+.how-header p,
+.how-ml-header p,
+.how-data-header p,
+.how-model-header p,
+.how-performance-header p,
+.how-comparison-header p,
+.how-fit-header p,
+.how-model-file p {
+  margin: 0 0 12px;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.how-header h1 {
+  margin: 0 0 16px;
+  color: #172033;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.how-header span {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #667085;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   MAIN STEPS
+========================================================= */
+
+.how-container {
+  max-width: 1000px;
+  margin: 55px auto;
+  padding: 0 30px;
+}
+
+.how-step {
+  display: grid;
+  grid-template-columns: 60px 60px 1fr;
+  gap: 20px;
+  align-items: center;
+
+  padding: 28px;
+  margin-bottom: 20px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+
+  transition: 0.25s ease;
+}
+
+.how-step:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.how-number {
+  color: #1d4ed8;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.how-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eef2ff;
+  border-radius: 13px;
+
+  font-size: 27px;
+}
+
+.how-step h2 {
+  margin: 0 0 8px;
+  color: #172033;
+  font-size: 21px;
+}
+
+.how-step p {
+  margin: 0;
+  color: #667085;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   MACHINE LEARNING SECTION
+========================================================= */
+
+.how-ml-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-ml-header,
+.how-data-header,
+.how-model-header,
+.how-performance-header,
+.how-comparison-header,
+.how-fit-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.how-ml-header h2,
+.how-data-header h2,
+.how-model-header h2,
+.how-performance-header h2,
+.how-comparison-header h2,
+.how-fit-header h2 {
+  margin: 0 0 14px;
+  color: #172033;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.how-ml-header span,
+.how-data-header span,
+.how-model-header span,
+.how-performance-header span,
+.how-comparison-header span,
+.how-fit-header span {
+  display: block;
+  max-width: 720px;
+  margin: 0 auto;
+
+  color: #667085;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ML PROCESS */
+
+.how-ml-process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.how-ml-card {
+  padding: 28px 22px;
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+
+  transition: 0.25s ease;
+}
+
+.how-ml-card:hover {
+  transform: translateY(-4px);
+}
+
+.how-ml-icon {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 18px;
+
+  background: #eef2ff;
+  border-radius: 15px;
+
+  font-size: 30px;
+}
+
+.how-ml-card h3 {
+  margin: 0 0 12px;
+  color: #172033;
+  font-size: 18px;
+}
+
+.how-ml-card p {
+  margin: 0;
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* =========================================================
+   DATASET SECTION
+========================================================= */
+
+.how-data-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-data-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.how-data-stat {
+  padding: 28px 20px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.how-data-stat strong {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #1d4ed8;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.how-data-stat span {
+  color: #667085;
+  font-size: 14px;
+}
+
+/* =========================================================
+   CURRENT MODEL
+========================================================= */
+
+.how-model-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-model-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.how-model-info,
+.how-model-description {
+  padding: 32px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.how-model-info h3,
+.how-model-description h3 {
+  margin: 0 0 22px;
+  color: #172033;
+  font-size: 21px;
+}
+
+.how-info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding: 14px 0;
+
+  border-bottom: 1px solid #edf0f4;
+}
+
+.how-info-row:last-child {
+  border-bottom: none;
+}
+
+.how-info-row span {
+  color: #667085;
+  font-size: 14px;
+}
+
+.how-info-row strong {
+  color: #172033;
+  font-size: 14px;
+  text-align: right;
+}
+
+.how-big-model-icon {
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  background: #eef2ff;
+  border-radius: 18px;
+
+  font-size: 38px;
+}
+
+.how-model-description p {
+  color: #667085;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* =========================================================
+   PERFORMANCE
+========================================================= */
+
+.how-performance-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.how-metric-card {
+  padding: 28px 20px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.how-metric-icon {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.how-metric-card > span {
+  display: block;
+  margin-bottom: 10px;
+
+  color: #667085;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.how-metric-card strong {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #1d4ed8;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.how-metric-card small {
+  color: #98a2b3;
+  font-size: 12px;
+}
+
+/* =========================================================
+   MODEL COMPARISON
+========================================================= */
+
+.how-comparison-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-comparison-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.how-comparison-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+}
+
+.how-comparison-table th,
+.how-comparison-table td {
+  padding: 18px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.how-comparison-table th {
+  background: #eef2ff;
+  color: #172033;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.how-comparison-table td {
+  color: #667085;
+  font-size: 14px;
+}
+
+.how-comparison-table td strong {
+  color: #172033;
+}
+
+.how-comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* =========================================================
+   MODEL FIT ANALYSIS
+========================================================= */
+
+.how-fit-section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.how-fit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.how-fit-card {
+  padding: 30px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.how-fit-icon {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.how-fit-card h3 {
+  margin: 0 0 12px;
+  color: #172033;
+  font-size: 20px;
+}
+
+.how-fit-card p {
+  margin: 0;
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.how-fit-status {
+  margin-top: 20px;
+  padding: 10px 13px;
+
+  background: #eef2ff;
+  border-radius: 8px;
+
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* =========================================================
+   DEPLOYED MODEL FILE
+========================================================= */
+
+.how-model-file {
+  max-width: 1050px;
+  margin: 80px auto;
+
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 25px;
+  align-items: center;
+
+  background: #172033;
+  border-radius: 18px;
+
+  box-sizing: border-box;
+}
+
+.how-file-icon {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #263653;
+  border-radius: 15px;
+
+  font-size: 28px;
+}
+
+.how-model-file p {
+  margin-bottom: 8px;
+}
+
+.how-model-file h2 {
+  margin: 0 0 8px;
+
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.how-model-file > div:nth-child(2) span {
+  display: block;
+  color: #d0d5dd;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.how-file-size {
+  min-width: 120px;
+  text-align: center;
+}
+
+.how-file-size strong {
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.how-file-size span {
+  color: #98a2b3;
+  font-size: 12px;
+}
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.how-features {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 30px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.how-feature {
+  padding: 30px 20px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+}
+
+.how-feature > div {
+  margin-bottom: 15px;
+  font-size: 34px;
+}
+
+.how-feature h3 {
+  margin: 0 0 10px;
+  color: #172033;
+  font-size: 18px;
+}
+
+.how-feature p {
+  margin: 0;
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.how-cta {
+  max-width: 900px;
+  margin: 80px auto 0;
+  padding: 55px 30px;
+
+  text-align: center;
+
+  background: #172033;
+  border-radius: 18px;
+
+  box-sizing: border-box;
+}
+
+.how-cta h2 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.how-cta p {
+  margin: 0 auto 25px;
+  color: #d0d5dd;
+  line-height: 1.6;
+}
+
+.how-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.how-primary-button,
+.how-secondary-button {
+  display: inline-block;
+  padding: 13px 25px;
+
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+.how-primary-button {
+  background: #ffffff;
+  color: #172033;
+}
+
+.how-primary-button:hover {
+  transform: translateY(-2px);
+}
+
+.how-secondary-button {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #d0d5dd;
+}
+
+.how-secondary-button:hover {
+  background: #263653;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 950px) {
+
+  .how-ml-process,
+  .how-data-stats,
+  .how-metrics-grid,
+  .how-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-fit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .how-model-details {
+    grid-template-columns: 1fr;
+  }
+
+  .how-model-file {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .how-file-size {
+    grid-column: 2;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .how-header {
+    padding: 55px 20px 40px;
+  }
+
+  .how-header h1 {
+    font-size: 36px;
+  }
+
+  .how-header span {
+    font-size: 15px;
+  }
+
+  .how-container,
+  .how-ml-section,
+  .how-data-section,
+  .how-model-section,
+  .how-performance-section,
+  .how-comparison-section,
+  .how-fit-section,
+  .how-features {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .how-step {
+    grid-template-columns: 40px 55px 1fr;
+    gap: 12px;
+    padding: 22px 18px;
+  }
+
+  .how-step h2 {
+    font-size: 19px;
+  }
+
+  .how-step p {
+    font-size: 14px;
+  }
+
+  .how-ml-process,
+  .how-data-stats,
+  .how-metrics-grid,
+  .how-features {
+    grid-template-columns: 1fr;
+  }
+
+  .how-model-file {
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: 55px 1fr;
+    padding: 25px 20px;
+  }
+
+  .how-file-size {
+    grid-column: 2;
+  }
+
+  .how-cta {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 45px 20px;
+  }
+
+  .how-cta h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .how-header h1 {
+    font-size: 30px;
+  }
+
+  .how-header {
+    padding-top: 45px;
+  }
+
+  .how-section-title h2,
+  .how-ml-header h2,
+  .how-data-header h2,
+  .how-model-header h2,
+  .how-performance-header h2,
+  .how-comparison-header h2,
+  .how-fit-header h2 {
+    font-size: 27px;
+  }
+
+  .how-step {
+    grid-template-columns: 35px 50px 1fr;
+    padding: 18px 12px;
+  }
+
+  .how-number {
+    font-size: 15px;
+  }
+
+  .how-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 23px;
+  }
+
+  .how-model-info,
+  .how-model-description,
+  .how-fit-card {
+    padding: 22px;
+  }
+
+  .how-info-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .how-info-row strong {
+    text-align: left;
+  }
+
+  .how-model-file {
+    grid-template-columns: 1fr;
+  }
+
+  .how-file-size {
+    grid-column: 1;
   }
 }
